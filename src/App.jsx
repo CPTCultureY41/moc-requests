@@ -337,7 +337,7 @@ export default function App() {
   const [submitted, setSubmitted] = useState(null);
   return <div><style>{css}</style>
     <nav className="nav">
-      <div className="nav-brand">MOC <span>·</span> Requests</div>
+      <div className="nav-brand">MOC <span>·</span> Requests System</div>
       <div className="nav-tabs">
         <button className={`nav-tab ${tab === "submit" ? "active" : ""}`} onClick={() => { setTab("submit"); setSubmitted(null); }}>Submit</button>
         <button className={`nav-tab ${tab === "track" ? "active" : ""}`} onClick={() => setTab("track")}>Track</button>
